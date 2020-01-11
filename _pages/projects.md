@@ -6,7 +6,11 @@ permalink: /projects/
 description: some of the projects I have worked on
 ---
 
-<div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
+<div class="alert alert-danger" role="alert">
+  This part of the site is still under construction.
+</div>
+
+<!-- <div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
   {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
     <div class="project-card">
@@ -46,4 +50,4 @@ description: some of the projects I have worked on
       </a>
     </div>
   {% endfor %}
-</div>
+</div> -->

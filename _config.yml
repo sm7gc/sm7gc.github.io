@@ -2,27 +2,30 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Anthony Platanios
-email: e.a.platanios@gmail.com
-description: Personal website of Anthony Platanios.
-# footer_text: >
-#   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-# last_updated: true
-
-url: platanios.org
+name: Sanjana Mendu
+email: sm7gc@virginia.edu
+description: Personal website of Sanjana Mendu.
+url: 
 
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: EFVk-mwAAAAJ
-github_username: eaplatanios
-linkedin_username: eplatanios
-facebook_username: anthony.platanios
-twitter_username: eaplatanios
-contact_note: Feel free to drop me a line via email.
+github_username: sm7gc
+# twitter_username: 
+linkedin_username: sanjana-mendu
+scholar_userid: fZh9riIAAAAJ
+# facebook_username: 
+# orcid_id: 0000-0002-0766-610X
+# medium_username:
+# quora_username:
+# publons_id:
+# research_gate_profile: Sanjana_Mendu
+# blogger_url:
 
-google_analytics: UA-54519238-1
+contact_note: >
+  The best way to reach me is via email
+
+google_analytics: UA-XXXXXXXXX
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -37,6 +40,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  posts:
+    output: true
+    permalink: /posts/:path/
 
 news_limit: 10
 
@@ -60,7 +66,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Platanios
+  last_name: Mendu
   style: apa
   locale: en
   sort_by: year
@@ -86,3 +92,19 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
 anchorjs_version: "3.2.2"
+
+# # -----------------------------------------------------------------------------
+# # Blog
+# # -----------------------------------------------------------------------------
+# blog_name: blog
+# blog_description: a simple platform for an ocassional brain dump
+
+# # Pagination
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
+
+# text:
+#   pagination:
+#     newer: 'Newer'
+#     older: 'Older'
