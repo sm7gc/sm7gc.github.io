@@ -14,7 +14,7 @@ nav: about
   <div class="row mt-3 mb-3">
     <div class="col-sm-6">
       <h6 class="mt-1 text-left text-sm-right" style="font-stretch: ultra-condensed;">
-        <a style="color: rgb(60, 72, 88);" href="" target="_blank">Systems and Information Engineering</a><br/>
+        <a style="color: rgb(60, 72, 88);" href="" target="_blank">Systems Engineering</a><br/>
         <a style="color: rgb(60, 72, 88);" href="" target="_blank">School of Engineering and Applied Sciences</a><br/>
         <a style="color: rgb(60, 72, 88);" href="" target="_blank">University of Virginia</a>
       </h6>
