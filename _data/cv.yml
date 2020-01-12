@@ -26,164 +26,85 @@
       year: 2014-18
       description:
       - '<u>GPA:</u> 3.58 (4.0 scale).'
+      - '<u>Thesis Title:</u> <b>Monitoring Loneliness using Smartphones</b>.'
         # - Integrated Bachelor's and Master's degree.
         # - <b>Dean’s List</b> for exceptional academic performance (all four years).
         # - title: '<u>Grade:</u> 91.67% (top 1% of class) with <b>92.37%</b> on the final exams – <b>First-Class Honors Degree</b>.'
-        #   contents:
-        #     - Equivalent to <b>4.0 GPA</b> in the USA academic system.
-        # - '<u>Thesis Title:</u> <b>Human Motion Classification Using Statistical Machine Learning Methods</b>.'
           # contents:
-          #   - Awarded the <b>Sir Bruce White prize in engineering</b> for the best final year project.
+            # - Equivalent to <b>4.0 GPA</b> in the USA academic system.
+          # contents:
+            # - Awarded the <b>Sir Bruce White prize in engineering</b> for the best final year project.
         # - title: '<u>Third Year Summer Research Project:</u> "Bayesian Machine Learning Methodologies for Modeling Time Series with High Volatility".'
         #   contents:
         #     - Volatility modeling and prediction in a multitude of applications with significance both for industry (e.g. finance) and academia.
 
-# - title: Work Experience
-#   type: table
-#   contents:
-#     # - title: 'Research Consultant at Cubist Systematic Strategies.'
-#     #   year: 2016-17
-#     #   description:
-#     #     - Worked for the Advanced Methods Groups (AMG) in new machine learning-driven approaches for end-to-end algorithmic trading systems.
-#     #     - Developed the main pipeline for trading algorithms research and for integrating these algorithms in a new production system.
-#     # - title: 'Research Intern at Microsoft Research.'
-#     #   year: 2015
-#     #   description:
-#     #     - '<u>Manager:</u> <a href="http://erichorvitz.com" target="_blank"><b>Dr. Eric Horvitz</b></a>, Distinguished Scientist and Managing Director of Microsoft Research.'
-#     #     - '<u>Collaborators:</u> <a href="https://www.microsoft.com/en-us/research/people/hoifung/" target="_blank"><b>Dr. Hoifung Poon</b></a> and <a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank"><b>Dr. Ashish Kapoor</b></a>.'
-#     #     - '<u>First 3 months:</u> Developed a probabilistic logic-based approach for accuracy estimation using unlabeled data, as part of the Literome Project.'
-#     #     - '<u>Last 3 months:</u> Active learning amidst logical knowledge.'
-#     # - title: 'Co-Founder, President and Chief Technology Officer (CTO) at Holic.'
-#     #   year: 2010-13
-#     #   description:
-#     #     - Developed an intelligent news reader application.
-#     #     - Developed algorithms utilizing advanced nonparametric Bayesian models for clustering news articles and for user profiling.
-#     #     - title: 'Received €400,000 funding from the following investors:'
-#     #       contents:
-#     #         - Dr. John Coustas, President & CEO of Danaos Corporation.
-#     #         - Mr. Leon Yohai, Founder & CEO of ZuluTrade.
+- title: Work Experience
+  type: table
+  contents:
+    - title: 'Research Directorate Intern at NASA Langley Research Center.'
+      year: 2016
+      description:
+        - Designed human-in-the-loop air traffic detection software for semi-autonomous aircraft system.
+        - Co-developed decision-level Bayesian fusion algorithm that improved accuracy of object-tracking results from standard computer vision methods.
 #     # - title: 'Founder of Project Protasis – Forest Protection.'
 #     #   year: 2008-10
 #     #   description:
-#     #     - Developed a forest fire detection and prevention system.
-#     #     - Developed both hardware and software (involving use of neural networks for recognizing fire and smoke in photos).
-#     #     - Installed prototype in <i>“Alsos Syggrou”</i>, a wooded area in Athens, funded by the Greek government.
-#     #     - 'Got patent approved in Greece (<b>Patent #: 20110100016</b>) and international patent pending approval.'
-#     #     - Interviewed by CNN, as well as several newspapers, magazines and other TV channels, regarding this project.
-#     #     - Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project.
-#     # - title: 'Web Designer and Software Developer at Curtainmakers S.A.'
-#     #   year: 2010
-#     # - title: 'Software Developer at vWorker.com.'
-#     #   year: 2009-10
-#     # - title: 'Founder of Project Protasis – Home Automation.'
-#     #   year: 2007-09
-#     #   description: 
-#     #     - Developed a smart home automation system that controls all electrical appliances, heating systems and water systems and aims to reduce domestic energy consumption while making the lives of homeowners as comfortable as possible.
-#     #     - Developed software, employing several machine learning algorithms.
-#     #     - Was funded by the Greek government and more specifically, by the Organization of School Buildings.
-#     #     - Interviewed by NBC, as well as several newspapers, magazines and other TV channels, regarding this project.
-#     #     - Won the <b>Microsoft Imagine Cup 2008</b> Greek Finals with this project and represented Greece in the Imagine Cup 2008 Worldwide Finals, in Paris, France, competing against teams from universities, at age of only 16 and having worked without a team or a mentor.
-#     # - title: 'Software Developer and I.T. Professional at Sigma Group Inc.'
-#     #   year: 2007-08
-#     # - title: 'Software Developer and I.T. Professional at Embiria S.A.'
-#     #   year: 2006
+#     #     - 
 
-# # - title: Open Source Projects
-# #   type: table
-# #   contents:
-# #     - title: '<a href="https://github.com/eaplatanios/tensorflow_scala" target="_blank"><b>TensorFlow Scala.</b></a>'
-# #       year: 2017-now
-# #       description: Machine learning library and API for the <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> framework developed by Google, that is currently being used by multiple researchers and companies (~600 GitHub stars).
-# #     - title: '<a href="https://github.com/eaplatanios/symphony-mt" target="_blank"><b>Symphony MT.</b></a>'
-# #       year: 2018
-# #       description: Machine translation library written in Scala, that supports various models along the whole translation pipeline (i.e., ranging from data preprocessing and vocabulary generation, to multiple encoder and decoder models).
-# #     - title: '<a href="https://github.com/eaplatanios/makina" target="_blank"><b>Makina.</b></a>'
-# #       year: 2014-16
-# #       description: Machine learning and optimization library written in Java that includes a scalable implementation of the Probabilistic Soft Logic (PSL) framework.
+- title: Honors and Awards
+  type: table
+  contents:
+    - year: 2019
+      items: 
+        - Louis T. Rader Outstanding Graduate Student Award
+    - year: 2018
+      items:
+        - Unity Student Scholarship for GDC 2018
+    - year: 2017
+      items:
+        - 1 out of 10 students who received the <b>Vidya Balvantrai Shelat Fund</b> in support of graduate school applications
+    - year: 2016
+      items: 
+        - Best Use of Esri API at HackNC
+        - 2<sup>nd</sup> place at the 'Caring for the Caregiver Hack'
 
-# - title: Honors and Awards
-#   type: table
-#   contents:
-#     # - year: 2017
-#     #   items: 
-#     #     - 2<sup>nd</sup> place in the CMU NeuroHackathon.
-#     # - year: 2016
-#     #   items: 
-#     #     - <b>CMU Presidential Fellowship</b>.
-#     # - year: 2010-13
-#     #   items:
-#     #     - <b>Sir Bruce White prize</b> in engineering for the best M.Eng. thesis at Imperial College London.
-#     #     - <b>Dean's List</b> at Imperial College London, for exceptional academic performance (all four years).
-#     # - year: 2010
-#     #   items:
-#     #     - Nominated for the RAE (UK Royal Academy of Engineering) presentation skills award.
-#     #     - '"Roll of Honor" of the Electrical and Electronic Engineering department of Imperial College London, for the best software design project in the year.'
-#     # - year: 2009
-#     #   items:
-#     #     - Congratulatory diploma for my work on "Project Protasis – Home Automation" by <b>UNESCO</b>.
-#     #     - <b>Honorary plaque</b> by the <b>Greek Minister of Education and Religious Affairs</b> for honoring my country internationally.
-#     # - year: 2007-08
-#     #   items:
-#     #     - <b>Full scholarship</b> (of about €12,000) by "Geitonas School", for honoring my school internationally.
-#     #     - Had a <b>computer science laboratory named after me</b> in “Geitonas School”, for honoring my school internationally.
-#     #     - Awarded €1,000 by the <b>President of the Greek Parliament</b>, for honoring my country internationally.
-#     #     - <b>Honorary plaque</b> by the Mayor of my city, Vari, in Greece, for honoring my country internationally.
-#     #     - Represented Greece in the <b>Microsoft Imagine Cup 2008 Worldwide Finals</b>, in Paris, France, with "Project Protasis - Home Automation".
-#     #     - 1<sup>st</sup> place in the Microsoft Imagine Cup 2008 Greek Finals with "Project Protasis - Home Automation", competing against teams from universities, at age of only 16 and having worked without a team or a mentor (also won the 2<sup>nd</sup> place in the Microsoft Imagine Cup 2009 Greek Finals with "Project Protasis - Forest Protection").
-#     # - year: 2007
-#     #   items: 
-#     #     - <b>Certificate of Excellence</b> for the school year 2006-07 from the Greek Ministry of Education and Religious Affairs.
-#     #     - 3<sup>rd</sup> place (bronze medal) in the <b>Greek Mathematics Olympiad</b>, organized by the Hellenic Mathematical Society.
-#     # - year: 2003-07
-#     #   items: 
-#     #     - <b>11 scholarships</b> and competitions in the fields of mathematics, sciences and computer science.
+- title: Teaching Experience
+  type: table
+  contents:
+    - title: '<b>Teaching Assistant for a graduate-level data science course at the University of Virginia.</b>'
+      year: 2017, 18
+      description:
+        - '<u>Class:</u> SARC 5400 - Data Visualization.'
+        - Taught by <b>Prof. Eric Field</b>.
+        - Responsible for weekly workshops and grading
 
-# - title: Teaching Experience
-#   type: table
-#   contents:
-#     # - title: '<b>Provided support for an advanced graduate-level course on machine learning at Carnegie Mellon University.</b>'
-#     #   year: 2018
-#     #   description:
-#     #     - '<u>Class:</u> 10-812 Architectures for Never-Ending Learning.'
-#     #     - Taught by <b>Prof. Tom Mitchell</b>.
-#     #     - Gave a couple of lectures and helped with the organization of the class.
-#     #     - Designed and co-led the implementation of the software testbed used to support the course projects.
-#     #     - Mentored several students working on class projects.
-#     # - title: '<b>Teaching Assistant for a graduate-level machine learning course at Carnegie Mellon University.</b>'
-#     #   year: 2014, 16
-#     #   description:
-#     #     - '<u>Class:</u> 10-701/15-781 Introduction to Machine Learning.'
-#     #     - Did this for two semesters (taught by <b>Prof. Geoff Gordon</b> and <b>Prof. Aarti Singh</b> in 2014, and <b>Prof. Tom Mitchell</b> in 2016).
-#     #     - Gave some lectures and some recitation lectures.
-#     #     - Mentored several groups of students working on class projects.
-#     #     - Wrote and graded homework assignments and exams.
+    - title: '<b>Teaching Assistant for an undergraduate-level applied mathematics course at the University of Virginia.</b>'
+      year: 2017
+      description:
+        - '<u>Class:</u> APMA 3080 - Linear Algebra.'
+        - Taught by <b>Prof. Monika Abramenko</b>.
+        - Responsible for weekly workshops and grading
 
-# - title: Services
-#   type: nested_list
-#   contents:
-#     # - title: 'Program Committees'
-#     #   items: 'EMNLP (2019), ICML (2019), NIPS (2018), EMNLP (2018), PLOS-ONE (2018), IEEE-TPAMI (2017), NIPS-AKBC (2016).'
-#     # - title: 'Conference Workshops Organized'
-#     #   items:
-#     #     - '2019: ICML Adaptive & Multi-Task Learning.'
-#     #     - '2019: ICLR Learning with Limited Labeled Data.'
-#     #     - '2017: NIPS Learning with Limited Labeled Data.'
-#     # - title: 'University Committees'
-#     #   items:
-#     #     - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
-#     #     - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
-#     #     - '2016-18: Education review committee (ERC) for the CMU Machine Learning Department.'
-#     #     - '2014-15: Social committee for the CMU Machine Learning Department.'
-#     # - title: 'Community Service'
-#     #   items:
-#     #     - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
-#     #     - '2008: Reforestation of mountainside in Rafina, Greece.'
-#     #     - '2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop.'
-#     #     - '2008: 13<sup style="vertical-align: top; position: relative; top: -0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
-#     #     - '2008: Helped organize the "Christmas Bazaar" (fund raiser project).'
-#     #     - '2008: Helped organize the "Love Feast" (celebrating  family values and fund raising for the victims of forest fires in Greece).'
-#     #     - '2007: Reforestation in Mani, Greece.'
-#     #     - '2007: Volunteer at the "AQUA GALA" event for physically challenged children, for the "Hellenic Society for Disabled Children".'
+- title: Services
+  type: nested_list
+  contents:
+    - title: 'Mentorship'
+      items:
+        - '2019: Mentored high school students working on engineering capstone projects.'
+        - '2017: Mentored 2 high school students working on research projects in computer science as part of <a href="">USC SHINE</a>.'
+        - '2016-17: Women in Computer Science.'
+        - '2015-16: Mentored first year Asian-American students as part of <a href="">Peer Advising Family Network</a>'
+    # - title: 'Outreach'
+    #   items:
+        # - '2019: ICML Adaptive & Multi-Task Learning.'
+        # - '2019: ICLR Learning with Limited Labeled Data.'
+        # - '2017: NIPS Learning with Limited Labeled Data.'
+        # - '2017: NIPS Learning with Limited Labeled Data.'
+    - title: 'Service'
+      items:
+        - '2019-20: Volunteer at Charlottesville Albemarle SPCA.'
+        - '2017: Hosted an <a href="">ExtraLife</a> (i.e. 24-hour video game streaming) event and raised $600 for the UVA Children’s Hospital.'
+        - '2017: Volunteered at Virginia Institute of Autism (VIA).'
 
 # - title: Software Development Skills
 #   type: list
