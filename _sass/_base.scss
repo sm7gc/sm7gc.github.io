@@ -154,6 +154,39 @@ a {
     }
 }
 
+.rg-icon {
+    background: rgb(21, 170, 191);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(21, 170, 191), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.or-icon {
+    background: rgb(174, 205, 84);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(174, 205, 84), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+
 .gh-icon {
     color: rgb(37, 41, 46);
     background: rgb(37, 41, 46);

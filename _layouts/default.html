@@ -27,6 +27,8 @@
           <span class="contact-icon text-center" style="line-height: 1em;">
             {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square gm-icon"></i></a>{% endif %}
             {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>{% endif %}
+            {% if site.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{ site.research_gate_profile }}" target="_blank" title="ResearchGate"><i class="ai ai-researchgate-square rg-icon"></i></a>{% endif %}
+            {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCiD"><i class="ai ai-orcid-square or-icon"></i></a>{% endif %}
             {% if site.github_username %}<a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>{% endif %}
             {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin li-icon"></i></a>{% endif %}
             {% if site.facebook_username %}<a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fab fa-facebook-square fb-icon"></i></a>{% endif %}
