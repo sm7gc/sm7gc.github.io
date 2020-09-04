@@ -128,40 +128,40 @@ progress {
     @include p(0);
   }
 
-  .wordpress-icon {
-    @include project-icon;
+  // .wordpress-icon {
+  //   @include project-icon;
 
-    @include mt(2);
-    @include ml(-1);
-    @include mr(2);
-    @include p(0);
+  //   @include mt(2);
+  //   @include ml(-1);
+  //   @include mr(2);
+  //   @include p(0);
 
-    .icon {
-      @include mr(1);
-    }
-  }
+  //   .icon {
+  //     @include mr(1);
+  //   }
+  // }
 
-  .github-icon {
-    @include mt(2);
-    @include mb(-4);
-    @include ml(-1);
-    @include mr(2);
-    @include p(0);
+  // .github-icon {
+  //   @include mt(2);
+  //   @include mb(-4);
+  //   @include ml(-1);
+  //   @include mr(2);
+  //   @include p(0);
 
-    .icon {
-      @include project-icon;
-      @include mr(1);
-    }
+  //   .icon {
+  //     @include project-icon;
+  //     @include mr(1);
+  //   }
 
-    .stars {
-      @include badge;
-      @include theme-badge;
+  //   .stars {
+  //     @include badge;
+  //     @include theme-badge;
 
-      position: relative;
-      top: -50px;
-      left: 20px;
-    }
-  }
+  //     position: relative;
+  //     top: -50px;
+  //     left: 20px;
+  //   }
+  // }
 }
 
 /* Publications */

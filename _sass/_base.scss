@@ -104,6 +104,10 @@ a {
     color: $theme-color !important;
 }
 
+.navbar-collapse {
+    max-width: 300px;
+}
+
 .arrow-icon {
     color: #90a4ae;
     background: #90a4ae;
@@ -246,6 +250,22 @@ a {
 
     &:hover {
         background: lighten(rgb(29, 161, 242), 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.md-icon {
+    background: rgb(36, 31, 32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+
+    &:hover {
+        background: lighten(rgb(36, 31, 32), 20%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

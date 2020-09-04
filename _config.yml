@@ -6,18 +6,18 @@ name: Sanjana Mendu
 email: sm7gc@virginia.edu
 description: Personal website of Sanjana Mendu.
 url: 
-last_updated: Mon, Mar 9 2020
+last_updated: Fri, Sep 4 2020
 
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
 github_username: sm7gc
-# twitter_username: 
+twitter_username: sanjana_mendu 
 linkedin_username: sanjana-mendu
 scholar_userid: fZh9riIAAAAJ
 # facebook_username: 
 orcid_id: 0000-0002-0766-610X
-# medium_username:
+medium_username: sanjanamendu
 # quora_username:
 # publons_id:
 research_gate_profile: Sanjana_Mendu
@@ -26,7 +26,7 @@ research_gate_profile: Sanjana_Mendu
 contact_note: >
   The best way to reach me is via email
 
-google_analytics: UA-XXXXXXXXX
+# google_analytics: UA-XXXXXXXXX
 
 # -----------------------------------------------------------------------------
 # Collections

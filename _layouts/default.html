@@ -31,8 +31,8 @@
             {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>{% endif %}
             {% if site.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{ site.research_gate_profile }}" target="_blank" title="ResearchGate"><i class="ai ai-researchgate-square rg-icon"></i></a>{% endif %}
             {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCiD"><i class="ai ai-orcid-square or-icon"></i></a>{% endif %}
-            {% if site.facebook_username %}<a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fab fa-facebook-square fb-icon"></i></a>{% endif %}
             {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter-square tw-icon"></i></a>{% endif %}
+            {% if site.medium_username %}<a href="https://medium.com/@{{ site.medium_username }}" target="_blank" title="Medium"><i class="fab fa-medium md-icon"></i></a>{% endif %}
           </span>
         </div>
       {% endif %}
@@ -41,7 +41,7 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         </li>
-        <ul class="navbar-nav ml-auto flex-nowrap">
+        <ul class="navbar-nav ml-auto flex-wrap">
           <li class="nav-item {% if page.title == "about" %}navbar-active font-weight-bold{% endif %}">
             <a class="nav-link" href="{{ site.baseurl | prepend: site.url }}/">
               about
