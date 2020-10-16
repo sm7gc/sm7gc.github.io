@@ -6,7 +6,7 @@ name: Sanjana Mendu
 email: sm7gc@virginia.edu
 description: Personal website of Sanjana Mendu.
 url: 
-last_updated: Fri, Sep 4 2020
+last_updated: Tue, Sep 8 2020
 
 # -----------------------------------------------------------------------------
 # Social Integration
@@ -27,6 +27,8 @@ contact_note: >
   The best way to reach me is via email
 
 # google_analytics: UA-XXXXXXXXX
+
+profile_imgs: ['profile1.jpg','profile2.jpg','profile3.jpg','profile4.jpg']
 
 # -----------------------------------------------------------------------------
 # Collections

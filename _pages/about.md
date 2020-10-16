@@ -6,26 +6,13 @@ nav: about
 ---
 
 <div class="text-center mt-5">
-  <img class="profile-img" src="{{ 'personal_headshot.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+  <img class="profile-img" src="{{ site.profile_imgs[3] | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
 </div>
 
 <div class="col mt-4">
   <h1 class="title text-center font-weight-bold">Sanjana Mendu</h1>
   <div class="row mt-3 mb-3">
     <div class="col-sm-6">
-      <!-- <h6 class="mt-1 text-left text-sm-right" style="font-stretch: ultra-condensed;">
-        <a style="color: rgb(60, 72, 88);" href="https://engineering.virginia.edu/departments/engineering-systems-and-environment/academics/systems-engineering" target="_blank">Systems Engineering</a><br/>
-        <a style="color: rgb(60, 72, 88);" href="https://engineering.virginia.edu/" target="_blank">School of Engineering and Applied Science</a><br/>
-        <a style="color: rgb(60, 72, 88);" href="https://www.virginia.edu/" target="_blank">University of Virginia</a>
-      </h6>
-    </div>
-    <div class="col-sm-6">
-      <h6 class="mt-1 text-left text-sm-left" style="font-stretch: ultra-condensed;">
-        Olsson Hall<br/>
-        151 Engineer's Way<br/>
-        Charlottesville, VA 22904 
-      </h6>
-    </div> -->
   </div>
 </div>
 
