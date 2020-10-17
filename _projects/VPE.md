@@ -4,7 +4,7 @@ title: Culturally-Tailored Virtual Agent for Minority Health Education
 nav: projects
 importance: 20
 description: Designed a cross-platform virtual agent in Unity to provide health education to rural Hispanic farmworkers
-img: /assets/img/projects/vpe.png
+img: /assets/img/project/vpe.png
 ---
 
 <!-- <div class="col mt-4 p-0">

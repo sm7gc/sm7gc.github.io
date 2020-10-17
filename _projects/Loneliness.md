@@ -4,7 +4,7 @@ title: Predicting Social Isolation from Social Media
 nav: projects
 importance: 100
 description: Conducted exploratory analysis of the role of psychological measures of social isolation in mediating social mediausage among college students
-img: /assets/img/projects/proj-placeholder.jpg
+img: /assets/img/project/loneliness.jpeg
 ---
 
 <!-- <div class="col mt-4 p-0">

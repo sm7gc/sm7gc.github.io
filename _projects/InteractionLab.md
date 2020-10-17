@@ -4,7 +4,7 @@ title: Socially-Assistive Robots for K-12 Classroom Telepresence
 nav: projects
 importance: 10
 description: NSF-funded REU project at the <a href="http://robotics.usc.edu/interaction" target="_blank">USC Interaction Lab</a>
-img: /assets/img/projects/sar-k12.jpg
+img: /assets/img/project/sar-k12.jpg
 ---
 
 <!-- <div class="col mt-4 p-0">

@@ -4,7 +4,7 @@ title: Reliable Analytics for Disease Indicators (ReADI)
 nav: projects
 importance: 100
 description: Leveraging continuously measured signals from smartphones to detect human health status
-img: /assets/img/projects/proj-placeholder.jpg
+img: /assets/img/project/readisens.jpg
 ---
 
 <!-- <div class="col mt-4 p-0">

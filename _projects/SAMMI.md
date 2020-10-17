@@ -4,7 +4,7 @@ title: Social Anxiety Monitoring and Mobile Intervention Study (SAMMI)
 nav: projects
 importance: 100
 description: Measure the behavioral effects of an e-Health cognitive behavior modification (CBM) intervention for socially anxious college students
-img: /assets/img/projects/sammi.png
+img: /assets/img/project/sammi.png
 ---
 
 <!-- <div class="col mt-4 p-0">
