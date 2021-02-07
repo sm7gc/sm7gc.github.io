@@ -62,11 +62,6 @@
               </li>
             {% endif %}
           {% endfor %}
-
-          <!-- <li class="nav-item {% if page.url == '/blog' %}navbar-active font-weight-bold{% endif %}">
-            <a class="nav-link" href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-          </li> -->
-          
         </ul>
       </div>
     </div>
@@ -102,17 +97,6 @@
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
   <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-
-  <!-- GitHub Stars -->
-  <!-- <script src="{{ '/assets/js/github-stars.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-  <script type="text/javascript">
-    {% for project in site.projects %}
-      {% if project.github %}
-        {% assign github_id = project.title | append: project.github | replace: '/', '-' | replace: ' ', '-' %}
-        githubStars("{{ project.github }}", function(stars) { $("#{{ github_id }}-stars").text('' + stars); });
-      {% endif %}
-    {% endfor %}
-  </script> -->
 
   <!-- Scrolling Progress Bar -->
   <script type="text/javascript">

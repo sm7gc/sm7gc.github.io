@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 name: Sanjana Mendu
-email: sm7gc@virginia.edu
+email: sanjana.mendu@psu.edu
 description: Personal website of Sanjana Mendu.
 url: 
-last_updated: Sat, Oct 17 2020
+last_updated: Sun, Feb 07 2021
 
 # -----------------------------------------------------------------------------
 # Social Integration
@@ -95,19 +95,3 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.7.1"
 anchorjs_version: "3.2.2"
-
-# # -----------------------------------------------------------------------------
-# # Blog
-# # -----------------------------------------------------------------------------
-# blog_name: blog
-# blog_description: a simple platform for an ocassional brain dump
-
-# # Pagination
-# paginate: 4
-# permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
-
-# text:
-#   pagination:
-#     newer: 'Newer'
-#     older: 'Older'
