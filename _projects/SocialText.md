@@ -4,7 +4,7 @@ title: Biomarkers of Mental Health in Digital Communications
 nav: projects
 importance: 100
 description: Extracting features from digital text message data to understand mental health
-img: /assets/img/project/socialtext.png
+img: /assets/img/project/proj-placeholder.png
 ---
 
 <!-- <div class="col mt-4 p-0">

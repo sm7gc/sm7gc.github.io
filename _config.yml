@@ -5,8 +5,8 @@
 name: Sanjana Mendu
 email: sanjana.mendu@psu.edu
 description: Personal website of Sanjana Mendu.
-url: 
-last_updated: Sun, Feb 07 2021
+# url: 
+last_updated: Mon, May 24 2021
 
 # -----------------------------------------------------------------------------
 # Social Integration
@@ -15,18 +15,12 @@ github_username: sm7gc
 twitter_username: sanjana_mendu 
 linkedin_username: sanjana-mendu
 scholar_userid: fZh9riIAAAAJ
-# facebook_username: 
 orcid_id: 0000-0002-0766-610X
 medium_username: sanjanamendu
-# quora_username:
-# publons_id:
 research_gate_profile: Sanjana_Mendu
-# blogger_url:
 
 contact_note: >
   The best way to reach me is via email
-
-# google_analytics: UA-XXXXXXXXX
 
 profile_imgs: ['profile1.jpg','profile2.jpg','profile3.jpg','profile4.jpg']
 

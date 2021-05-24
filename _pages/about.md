@@ -34,10 +34,10 @@ nav: about
 </div>
 
 <!-- News -->
-<div class="news mt-5 p-0">
+<!-- <div class="news mt-5 p-0">
   <h2 class="title mb-2 p-0">news</h2>
   <h4 class="p-0" style="color:gray;">[ <i>coming soon</i> ]</h4>
-  <!-- {% assign news = site.news | reverse %}
+  {% assign news = site.news | reverse %}
   {% for item in news limit: site.news_limit %}
     <div class="row p-0">
       <div class="col-sm-2 p-0">=
@@ -49,5 +49,5 @@ nav: about
         <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
       </div>
     </div>
-  {% endfor %} -->
-</div>
+  {% endfor %}
+</div> -->
