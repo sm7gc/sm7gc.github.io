@@ -4,3 +4,4 @@ _site
 .ruby-version
 Gemfile.lock
 .DS_store
+*.code-workspace
