@@ -6,7 +6,7 @@ nav: about
 ---
 
 <div class="text-center mt-5">
-  <img class="profile-img" src="{{ site.profile_imgs[3] | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+  <img class="profile-img" src="{{ site.profile_imgs[3] | prepend: '/assets/img/' | prepend: site.baseurl }}">
 </div>
 
 <div class="col mt-4">
