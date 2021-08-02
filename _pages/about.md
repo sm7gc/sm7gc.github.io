@@ -19,7 +19,7 @@ nav: about
 <!-- Introduction -->
 
 <div class="col text-center p-0">
-  I am a first-year Ph.D. student studying 
+  I am a second-year Ph.D. student studying 
   <a href="https://ist.psu.edu/prospective/graduate/phd-informatics" target="_blank">Informatics</a> in the 
   <a href="https://ist.psu.edu/" target="_blank">College of Information Sciences and Technology</a> at the 
   <a href="https://www.psu.edu/" target="_blank">Pennsylvania State University</a>. 
