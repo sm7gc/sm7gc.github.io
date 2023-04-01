@@ -41,7 +41,7 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         </li>
-        <ul class="navbar-nav ml-auto flex-wrap">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item {% if page.title == "about" %}navbar-active font-weight-bold{% endif %}">
             <a class="nav-link" href="{{ site.baseurl }}/">
               about
@@ -53,7 +53,7 @@
           {% for p in site.pages %}
             {% if p.title and p.url != "/" %}
               <li class="nav-item {% if page.nav == p.nav %}navbar-active font-weight-bold{% endif %}">
-                  <a class="nav-link" href="{% if p.nav == 'cv' %}{{ '/cv.pdf' | prepend: site.baseurl }}{% else %}{{ p.url | prepend: site.baseurl }}{% endif %}" target="{% if p.nav == 'cv' %}_blank{% endif %}">
+                  <a class="nav-link" href="{% if p.nav == 'cv' %}{{ '/CV.pdf' | prepend: site.baseurl }}{% else %}{{ p.url | prepend: site.baseurl }}{% endif %}" target="{% if p.nav == 'cv' %}_blank{% endif %}">
                     {{ p.nav }}
                     {% if page.nav == p.nav %}
                       <span class="sr-only">(current)</span>

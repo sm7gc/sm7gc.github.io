@@ -63,6 +63,14 @@ body {
     color: $text-color;
 }
 
+th {
+    white-space: nowrap;
+}
+
+table.table a {
+    color: $theme-color;
+}
+
 .navbar a {
     color: $text-color !important;
 }

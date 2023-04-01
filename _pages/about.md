@@ -6,7 +6,7 @@ nav: about
 ---
 
 <div class="text-center mt-5">
-  <img class="profile-img" src="{{ site.profile_imgs[3] | prepend: '/assets/img/' | prepend: site.baseurl }}">
+  <img class="profile-img" src="{{ profile.jpg | prepend: '/assets/img/' | prepend: site.baseurl }}">
 </div>
 
 <div class="col mt-4">
@@ -32,22 +32,3 @@ nav: about
   and MS in <a href="https://engineering.virginia.edu/departments/engineering-systems-and-environment/academics/systems-engineering" target="_blank">Systems Engineering</a> from the <a href="https://www.virginia.edu" target="_blank">University of Virginia</a>. 
   For my <a href="https://libraetd.lib.virginia.edu/public_view/xg94hq166" target="_blank">Master's thesis</a>, I proposed a novel framework for constructing rich feature spaces from digital text communications.
 </div>
-
-<!-- News -->
-<!-- <div class="news mt-5 p-0">
-  <h2 class="title mb-2 p-0">news</h2>
-  <h4 class="p-0" style="color:gray;">[ <i>coming soon</i> ]</h4>
-  {% assign news = site.news | reverse %}
-  {% for item in news limit: site.news_limit %}
-    <div class="row p-0">
-      <div class="col-sm-2 p-0">=
-        <span class="badge badge-primary badge-pill text-uppercase align-middle date ml-3">
-          {{ item.date | date: "%b %Y" }}
-        </span>
-      </div>
-      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
-        <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
-      </div>
-    </div>
-  {% endfor %}
-</div> -->
