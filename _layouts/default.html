@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 </head>
-<body>
+<body {% if page.nav == "meet" %}style="padding-bottom:0px"{% endif %}>
   <!-- Header -->
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
@@ -51,7 +51,7 @@
             </a>
           </li>
           {% for p in site.pages %}
-            {% if p.title and p.url != "/" %}
+            {% if p.title and p.url != "/" and p.nav != "meet" %}
               <li class="nav-item {% if page.nav == p.nav %}navbar-active font-weight-bold{% endif %}">
                   <a class="nav-link" href="{% if p.nav == 'cv' %}{{ '/CV.pdf' | prepend: site.baseurl }}{% else %}{{ p.url | prepend: site.baseurl }}{% endif %}" target="{% if p.nav == 'cv' %}_blank{% endif %}">
                     {{ p.nav }}
@@ -74,18 +74,20 @@
     </div>
   </progress>
 
+  {% if page.nav != "meet" %}
   <!-- Content -->
   <div class="content">
     {{ content }}
   </div>
+  {% else %}
+  {{ content }}
+  {% endif %}
 
   <!-- Footer -->
   <footer>
     &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
     {{ site.footer_text }}
-    {% if site.last_updated %}
-      Last updated: {{ "now" | date: "%a, %b %e %Y" }}.
-    {% endif %}
+    Last updated: {{ "now" | date: "%a, %b %e %Y" }}.
   </footer>
 
   <!-- Core JavaScript Files -->
