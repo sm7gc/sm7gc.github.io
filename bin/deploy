@@ -39,25 +39,25 @@ DEPLOY_BRANCH="master"
 #     shift
 # done
 
-# Exit if any subcommand fails
-set -e
+# # Exit if any subcommand fails
+# set -e
 
 echo "Deploying..."
 echo "Source branch: $SRC_BRANCH"
 echo "Deploy branch: $DEPLOY_BRANCH"
 
-# Switch to source branch (creates it if necessary from the current branch)
-if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
-then
-    git checkout $SRC_BRANCH
-else
-    git checkout -b $SRC_BRANCH
-fi
+# # Switch to source branch (creates it if necessary from the current branch)
+# if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
+# then
+#     git checkout $SRC_BRANCH
+# else
+#     git checkout -b $SRC_BRANCH
+# fi
 
-# Commit git SOURCE_BRANCH changes
-git add .
-git commit -m "$1"
-git push
+# # Commit git SOURCE_BRANCH changes
+# git add .
+# git commit -m "$1"
+# git push
 
 # Checkout DEPLOY_BRANCH branch
 if [ `git branch | grep $DEPLOY_BRANCH` ]
