@@ -30,3 +30,19 @@ description: some of the projects I have worked on
     </div>
   {% endfor %}
 </div>
+
+<!-- {% for project in sorted_projects %}
+  <div class="row m-0 p-0" style="border-top: 1px solid #ddd;">
+    <div class="col-sm-11 p-0">
+        <img src="{{ project.img | prepend: site.baseurl }}" alt="project thumbnail">
+        {% if project.redirect %}
+          <a href="{{ project.redirect }}" target="_blank">
+        {% else %}
+          <a href="{{ project.url | prepend: site.baseurl }}">
+        {% endif %}
+        <h5>{{ project.title }}</h5>
+        </a>
+        <p>{{ project.description }}</p>
+    </div>
+  </div>
+{% endfor %} -->
